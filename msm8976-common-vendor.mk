@@ -43,8 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8976-common/proprietary/etc/camera/s5k6b2yx_chromatix.xml:system/etc/camera/s5k6b2yx_chromatix.xml \
     vendor/samsung/msm8976-common/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
     vendor/samsung/msm8976-common/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
-    vendor/samsung/msm8976-common/proprietary/etc/firmware/bdwlan30.bin:system/etc/firmware/bdwlan30.bin \
-    vendor/samsung/msm8976-common/proprietary/etc/firmware/bdwlan30_R01.bin:system/etc/firmware/bdwlan30_R01.bin \
     vendor/samsung/msm8976-common/proprietary/etc/firmware/btfw32.tlv:system/etc/firmware/btfw32.tlv \
     vendor/samsung/msm8976-common/proprietary/etc/firmware/btnv32.bin:system/etc/firmware/btnv32.bin \
     vendor/samsung/msm8976-common/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
@@ -58,11 +56,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8976-common/proprietary/etc/firmware/ois_SE_BU24219.bin:system/etc/firmware/ois_SE_BU24219.bin \
     vendor/samsung/msm8976-common/proprietary/etc/firmware/ois_SP_BU24219.bin:system/etc/firmware/ois_SP_BU24219.bin \
     vendor/samsung/msm8976-common/proprietary/etc/firmware/ois_VE_BU24219.bin:system/etc/firmware/ois_VE_BU24219.bin \
-    vendor/samsung/msm8976-common/proprietary/etc/firmware/otp30.bin:system/etc/firmware/otp30.bin \
-    vendor/samsung/msm8976-common/proprietary/etc/firmware/qwlan30.bin:system/etc/firmware/qwlan30.bin \
-    vendor/samsung/msm8976-common/proprietary/etc/firmware/utf30.bin:system/etc/firmware/utf30.bin \
-    vendor/samsung/msm8976-common/proprietary/etc/firmware/utfbd30.bin:system/etc/firmware/utfbd30.bin \
-    vendor/samsung/msm8976-common/proprietary/etc/firmware/utfbd30_R01.bin:system/etc/firmware/utfbd30_R01.bin \
     vendor/samsung/msm8976-common/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/samsung/msm8976-common/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/samsung/msm8976-common/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
