@@ -19,11 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8976-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/samsung/msm8976-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/samsung/msm8976-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
-    vendor/samsung/msm8976-common/proprietary/bin/pm-proxy:system/bin/pm-proxy \
-    vendor/samsung/msm8976-common/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/samsung/msm8976-common/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/samsung/msm8976-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/samsung/msm8976-common/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/samsung/msm8976-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/samsung/msm8976-common/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/samsung/msm8976-common/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
@@ -79,7 +75,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
-    vendor/samsung/msm8976-common/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/libmm-als.so:system/vendor/lib/libmm-als.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
@@ -89,7 +84,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/libmmsw_math.so:system/vendor/lib/libmmsw_math.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/libmmsw_opencl.so:system/vendor/lib/libmmsw_opencl.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/libmmsw_platform.so:system/vendor/lib/libmmsw_platform.so \
-    vendor/samsung/msm8976-common/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
@@ -158,7 +152,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
-    vendor/samsung/msm8976-common/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libqisl.so:system/vendor/lib64/libqisl.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
     vendor/samsung/msm8976-common/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
