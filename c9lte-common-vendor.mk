@@ -48,6 +48,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/lib/hw/camera.vendor.msm8952.so:system/lib/hw/camera.vendor.msm8952.so \
     vendor/samsung/c9lte-common/proprietary/lib/hw/sensors.MSM8952.so:system/lib/hw/sensors.msm8976.so \
     vendor/samsung/c9lte-common/proprietary/etc/Tfa9897.cnt:system/etc/Tfa9897.cnt \
+    vendor/samsung/c9lte-common/proprietary/lib/libalawb_algo.so:system/lib/libalawb_algo.so \
     vendor/samsung/c9lte-common/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/samsung/c9lte-common/proprietary/lib/libbauthserver.so:system/lib/libbauthserver.so \
     vendor/samsung/c9lte-common/proprietary/lib/libbauthtzcommon.so:system/lib/libbauthtzcommon.so \
@@ -84,6 +85,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
@@ -159,6 +161,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libllvd_smore.so:system/vendor/lib/libllvd_smore.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libmm-als.so:system/vendor/lib/libmm-als.so \
