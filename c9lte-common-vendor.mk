@@ -44,9 +44,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/samsung/c9lte-common/proprietary/etc/Tfa9897.cnt:system/etc/Tfa9897.cnt \
     vendor/samsung/c9lte-common/proprietary/lib/hw/camera.vendor.msm8952.so:system/lib/hw/camera.vendor.msm8952.so \
-    vendor/samsung/c9lte-common/proprietary/lib/hw/sensors.MSM8952.so:system/lib/hw/sensors.msm8976.so \
+    vendor/samsung/c9lte-common/proprietary/lib/hw/sensors.MSM8952.so:system/lib/hw/sensors.msm8952.so \
     vendor/samsung/c9lte-common/proprietary/lib/hw/sensorhubs.MSM8976.so:system/lib/hw/sensorhubs.msm8952.so \
-    vendor/samsung/c9lte-common/proprietary/lib/hw/nfc_nci.msm8976.so:system/lib/hw/nfc_nci.msm8976.so \
+    vendor/samsung/c9lte-common/proprietary/lib/hw/nfc_nci.msm8952.so:system/lib/hw/nfc_nci.msm8952.so \
     vendor/samsung/c9lte-common/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
     vendor/samsung/c9lte-common/proprietary/lib/libalawb_algo.so:system/lib/libalawb_algo.so \
     vendor/samsung/c9lte-common/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
@@ -66,7 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/samsung/c9lte-common/proprietary/lib64/hw/sensors.MSM8952.so:system/lib64/hw/sensors.msm8952.so \
     vendor/samsung/c9lte-common/proprietary/lib64/hw/sensorhubs.MSM8976.so:system/lib64/hw/sensorhubs.msm8952.so \
-    vendor/samsung/c9lte-common/proprietary/lib64/hw/nfc_nci.msm8976.so:system/lib64/hw/nfc_nci.msm8976.so \
+    vendor/samsung/c9lte-common/proprietary/lib64/hw/nfc_nci.msm8952.so:system/lib64/hw/nfc_nci.msm8952.so \
     vendor/samsung/c9lte-common/proprietary/lib64/libbauthserver.so:system/lib64/libbauthserver.so \
     vendor/samsung/c9lte-common/proprietary/lib64/libbauthtzcommon.so:system/lib64/libbauthtzcommon.so \
     vendor/samsung/c9lte-common/proprietary/lib64/libegis_fp_normal_sensor_test.so:system/lib64/libegis_fp_normal_sensor_test.so \
