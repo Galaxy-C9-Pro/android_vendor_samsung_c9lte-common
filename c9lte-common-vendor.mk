@@ -47,6 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/lib/hw/sensors.MSM8952.so:system/lib/hw/sensors.msm8976.so \
     vendor/samsung/c9lte-common/proprietary/lib/hw/sensorhubs.MSM8976.so:system/lib/hw/sensorhubs.msm8952.so \
     vendor/samsung/c9lte-common/proprietary/lib/hw/nfc_nci.msm8976.so:system/lib/hw/nfc_nci.msm8976.so \
+    vendor/samsung/c9lte-common/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
     vendor/samsung/c9lte-common/proprietary/lib/libalawb_algo.so:system/lib/libalawb_algo.so \
     vendor/samsung/c9lte-common/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/samsung/c9lte-common/proprietary/lib/libbauthserver.so:system/lib/libbauthserver.so \
