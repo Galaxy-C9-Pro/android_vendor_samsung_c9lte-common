@@ -25,8 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/samsung/c9lte-common/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/samsung/c9lte-common/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/samsung/c9lte-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
-    vendor/samsung/c9lte-common/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/samsung/c9lte-common/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/samsung/c9lte-common/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/samsung/c9lte-common/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
@@ -43,7 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
     vendor/samsung/c9lte-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/samsung/c9lte-common/proprietary/etc/nfc/sec_s3nrn81_rfreg.bin:system/etc/nfc/sec_s3nrn81_rfreg.bin \
-    vendor/samsung/c9lte-common/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/samsung/c9lte-common/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/samsung/c9lte-common/proprietary/etc/Tfa9897.cnt:system/etc/Tfa9897.cnt \
     vendor/samsung/c9lte-common/proprietary/lib/hw/camera.vendor.msm8952.so:system/lib/hw/camera.vendor.msm8952.so \
@@ -366,9 +363,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
