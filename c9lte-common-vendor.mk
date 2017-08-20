@@ -43,6 +43,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/etc/nfc/sec_s3nrn81_rfreg.bin:system/etc/nfc/sec_s3nrn81_rfreg.bin \
     vendor/samsung/c9lte-common/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/samsung/c9lte-common/proprietary/etc/Tfa9897.cnt:system/etc/Tfa9897.cnt \
+	vendor/samsung/c9lte-common/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
+	vendor/samsung/c9lte-common/proprietary/framework/org.apache.http.legacy.jar:system/framework/org.apache.http.legacy.jar \
+	vendor/samsung/c9lte-common/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/samsung/c9lte-common/proprietary/lib/hw/camera.vendor.msm8952.so:system/lib/hw/camera.vendor.msm8952.so \
     vendor/samsung/c9lte-common/proprietary/lib/hw/sensors.MSM8952.so:system/lib/hw/sensors.msm8952.so \
     vendor/samsung/c9lte-common/proprietary/lib/hw/sensorhubs.MSM8976.so:system/lib/hw/sensorhubs.msm8952.so \
