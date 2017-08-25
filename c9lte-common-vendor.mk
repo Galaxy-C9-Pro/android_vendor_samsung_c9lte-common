@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/samsung/c9lte-common/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/samsung/c9lte-common/proprietary/bin/qseecomd:system/bin/qseecomd \
-	vendor/samsung/c9lte-common/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/c9lte-common/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/samsung/c9lte-common/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/samsung/c9lte-common/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
@@ -369,6 +368,31 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
+    vendor/samsung/c9lte-common/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
+    vendor/samsung/c9lte-common/proprietary/lib/libmysound.so:system/lib/libmysound.so \
+    vendor/samsung/c9lte-common/proprietary/lib/libsamsungSoundbooster_plus.so:system/lib/libsamsungSoundbooster_plus.so \
+    vendor/samsung/c9lte-common/proprietary/lib/soundfx/libaudioeffectoffload.so:system/lib/soundfx/libaudioeffectoffload.so \
+    vendor/samsung/c9lte-common/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
+    vendor/samsung/c9lte-common/proprietary/lib/soundfx/libaudiosaplus_sec.so:system/lib/soundfx/libaudiosaplus_sec.so \
+    vendor/samsung/c9lte-common/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
+    vendor/samsung/c9lte-common/proprietary/lib/soundfx/libdownmix.so:system/lib/soundfx/libdownmix.so \
+    vendor/samsung/c9lte-common/proprietary/lib/soundfx/libeffectproxy.so:system/lib/soundfx/libeffectproxy.so \
+    vendor/samsung/c9lte-common/proprietary/lib/soundfx/libldnhncr.so:system/lib/soundfx/libldnhncr.so \
+    vendor/samsung/c9lte-common/proprietary/lib/soundfx/libmyspace.so:system/lib/soundfx/libmyspace.so \
+    vendor/samsung/c9lte-common/proprietary/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
+    vendor/samsung/c9lte-common/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
+    vendor/samsung/c9lte-common/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
+    vendor/samsung/c9lte-common/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
+    vendor/samsung/c9lte-common/proprietary/lib64/soundfx/libaudioeffectoffload.so:system/lib64/soundfx/libaudioeffectoffload.so \
+    vendor/samsung/c9lte-common/proprietary/lib64/soundfx/libaudiopreprocessing.so:system/lib64/soundfx/libaudiopreprocessing.so \
+    vendor/samsung/c9lte-common/proprietary/lib64/soundfx/libbundlewrapper.so:system/lib64/soundfx/libbundlewrapper.so \
+    vendor/samsung/c9lte-common/proprietary/lib64/soundfx/libdownmix.so:system/lib64/soundfx/libdownmix.so \
+    vendor/samsung/c9lte-common/proprietary/lib64/soundfx/libeffectproxy.so:system/lib64/soundfx/libeffectproxy.so \
+    vendor/samsung/c9lte-common/proprietary/lib64/soundfx/libldnhncr.so:system/lib64/soundfx/libldnhncr.so \
+    vendor/samsung/c9lte-common/proprietary/lib64/soundfx/libqcomvisualizer.so:system/lib64/soundfx/libqcomvisualizer.so \
+    vendor/samsung/c9lte-common/proprietary/lib64/soundfx/libqcomvoiceprocessing.so:system/lib64/soundfx/libqcomvoiceprocessing.so \
+    vendor/samsung/c9lte-common/proprietary/lib64/soundfx/libreverbwrapper.so:system/lib64/soundfx/libreverbwrapper.so \
+    vendor/samsung/c9lte-common/proprietary/lib64/soundfx/libvisualizer.so:system/lib64/soundfx/libvisualizer.so
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
