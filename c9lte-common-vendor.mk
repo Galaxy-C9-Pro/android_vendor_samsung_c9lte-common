@@ -66,6 +66,17 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
     vendor/samsung/c9lte-common/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
     vendor/samsung/c9lte-common/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
+    vendor/samsung/c9lte-common/proprietary/lib/hw/audio.primary.msm8952.so:system/lib/hw/audio.primary.msm8952.so \
+    vendor/samsung/c9lte-common/proprietary/lib/libSamsungPostProcess.so:system/lib/libSamsungPostProcess.so \
+    vendor/samsung/c9lte-common/proprietary/lib/libSamsungPostProcessConvertor.so:system/lib/libSamsungPostProcessConvertor.so \
+    vendor/samsung/c9lte-common/proprietary/lib/lib_SamsungRec_V06002.so:system/lib/lib_SamsungRec_V06002.so \
+    vendor/samsung/c9lte-common/proprietary/lib/lib_SoundAlive_SRC192_ver205.so:system/lib/lib_SoundAlive_SRC192_ver205.so \
+    vendor/samsung/c9lte-common/proprietary/lib/lib_SoundBooster_ver700.so:system/lib/lib_SoundBooster_ver700.so \
+    vendor/samsung/c9lte-common/proprietary/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
+    vendor/samsung/c9lte-common/proprietary/lib/librecordalive.so:system/lib/librecordalive.so \
+    vendor/samsung/c9lte-common/proprietary/lib/libsamsungVoipResampler.so:system/lib/libsamsungVoipResampler.so \
+    vendor/samsung/c9lte-common/proprietary/lib/libsecaudioinfo.so:system/lib/libsecaudioinfo.so \
+    vendor/samsung/c9lte-common/proprietary/lib64/libsecaudioinfo.so:system/lib64/libsecaudioinfo.so \
     vendor/samsung/c9lte-common/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/samsung/c9lte-common/proprietary/lib64/hw/sensors.MSM8952.so:system/lib64/hw/sensors.msm8952.so \
     vendor/samsung/c9lte-common/proprietary/lib64/hw/sensorhubs.MSM8976.so:system/lib64/hw/sensorhubs.msm8952.so \
