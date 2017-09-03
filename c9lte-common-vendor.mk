@@ -40,7 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/etc/firmware/cs47l15-dsp1-karaoke-vocals.wmfw:system/etc/firmware/cs47l15-dsp1-karaoke-vocals.wmfw \
     vendor/samsung/c9lte-common/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
     vendor/samsung/c9lte-common/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
-    vendor/samsung/c9lte-common/proprietary/etc/nfc/sec_s3nrn81_rfreg.bin:system/etc/nfc/sec_s3nrn81_rfreg.bin \
     vendor/samsung/c9lte-common/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/samsung/c9lte-common/proprietary/etc/Tfa9897.cnt:system/etc/Tfa9897.cnt \
     vendor/samsung/c9lte-common/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
@@ -93,7 +92,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/samsung/c9lte-common/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/samsung/c9lte-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/samsung/c9lte-common/proprietary/vendor/firmware/nfc/sec_s3nrn81_firmware.bin:system/vendor/firmware/nfc/sec_s3nrn81_firmware.bin \
 	vendor/samsung/c9lte-common/proprietary/vendor/firmware/ram_patch.fw:system/vendor/firmware/ram_patch.fw \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
