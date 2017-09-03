@@ -37,6 +37,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/etc/camera/M16QL_s5k3p8sx_chromatix.xml:system/etc/camera/M16QL_s5k3p8sx_chromatix.xml \
     vendor/samsung/c9lte-common/proprietary/etc/camera/O16QL_s5k3p8sx_chromatix.xml:system/etc/camera/O16QL_s5k3p8sx_chromatix.xml \
     vendor/samsung/c9lte-common/proprietary/etc/camera/msm8976_camera_c9lte.xml:system/etc/camera/msm8976_camera_c9lte.xml \
+    vendor/samsung/c9lte-common/proprietary/etc/firmware/cs47l15-dsp1-karaoke-vocals.bin:system/etc/firmware/cs47l15-dsp1-karaoke-vocals.bin \
+    vendor/samsung/c9lte-common/proprietary/etc/firmware/cs47l15-dsp1-karaoke-vocals.wmfw:system/etc/firmware/cs47l15-dsp1-karaoke-vocals.wmfw \
     vendor/samsung/c9lte-common/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
     vendor/samsung/c9lte-common/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
     vendor/samsung/c9lte-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
