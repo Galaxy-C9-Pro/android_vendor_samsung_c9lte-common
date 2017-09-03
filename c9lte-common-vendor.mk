@@ -41,7 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/etc/firmware/cs47l15-dsp1-karaoke-vocals.wmfw:system/etc/firmware/cs47l15-dsp1-karaoke-vocals.wmfw \
     vendor/samsung/c9lte-common/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
     vendor/samsung/c9lte-common/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
-    vendor/samsung/c9lte-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/samsung/c9lte-common/proprietary/etc/nfc/sec_s3nrn81_rfreg.bin:system/etc/nfc/sec_s3nrn81_rfreg.bin \
     vendor/samsung/c9lte-common/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/samsung/c9lte-common/proprietary/etc/Tfa9897.cnt:system/etc/Tfa9897.cnt \
