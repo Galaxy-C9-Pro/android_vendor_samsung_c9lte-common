@@ -128,6 +128,68 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_3a_4k_preview.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_3a_4k_preview.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_3a_4k_video.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_3a_4k_video.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_3a_hfr_120.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_3a_hfr_120.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_3a_night_preview.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_3a_night_preview.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_3a_panorama_preview.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_3a_panorama_preview.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_3a_sports_preview.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_3a_sports_preview.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_3a_wechat_preview.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_3a_wechat_preview.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_3a_wechat_video.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_3a_wechat_video.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_3a_zsl_preview.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_3a_zsl_preview.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_3a_zsl_video.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_3a_zsl_video.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_common.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_common.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_cpp_hfr_120.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_cpp_iso_snapshot.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_cpp_iso_snapshot.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_cpp_liveshot.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_cpp_lls_snapshot.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_cpp_lls_snapshot.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_cpp_night_snapshot.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_cpp_night_snapshot.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_cpp_panorama_snapshot.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_cpp_panorama_snapshot.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_cpp_preview.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_cpp_preview.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_cpp_snapshot.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_cpp_sports_snapshot.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_cpp_sports_snapshot.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_cpp_video.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_cpp_video.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_cpp_video_4k.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_cpp_video_4k.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_cpp_video_wechat.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_cpp_video_wechat.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_isp_default_video.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_isp_default_video.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_isp_hfr_120.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_isp_hfr_120.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_isp_mode_iso.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_isp_mode_iso.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_isp_mode_night.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_isp_mode_night.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_isp_mode_panorama.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_isp_mode_panorama.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_isp_mode_sports.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_isp_mode_sports.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_isp_mode_wechat.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_isp_mode_wechat.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_isp_snapshot.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_isp_snapshot.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_postproc.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_postproc.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_postproc_lds.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_postproc_lds.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_o16ql_common.so:system/vendor/lib/libchromatix_s5k3p8sx_o16ql_common.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_o16ql_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3p8sx_o16ql_cpp_hfr_120.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_o16ql_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3p8sx_o16ql_cpp_liveshot.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_o16ql_cpp_preview_high.so:system/vendor/lib/libchromatix_s5k3p8sx_o16ql_cpp_preview_high.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_o16ql_cpp_preview_low.so:system/vendor/lib/libchromatix_s5k3p8sx_o16ql_cpp_preview_low.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_o16ql_cpp_snapshot_high.so:system/vendor/lib/libchromatix_s5k3p8sx_o16ql_cpp_snapshot_high.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_o16ql_cpp_snapshot_lls_high.so:system/vendor/lib/libchromatix_s5k3p8sx_o16ql_cpp_snapshot_lls_high.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_o16ql_cpp_snapshot_low.so:system/vendor/lib/libchromatix_s5k3p8sx_o16ql_cpp_snapshot_low.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_o16ql_cpp_video_high.so:system/vendor/lib/libchromatix_s5k3p8sx_o16ql_cpp_video_high.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_o16ql_cpp_video_low.so:system/vendor/lib/libchromatix_s5k3p8sx_o16ql_cpp_video_low.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_o16ql_cpp_vt_high.so:system/vendor/lib/libchromatix_s5k3p8sx_o16ql_cpp_vt_high.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_o16ql_cpp_vt_low.so:system/vendor/lib/libchromatix_s5k3p8sx_o16ql_cpp_vt_low.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_o16ql_default_video_lc898122.so:system/vendor/lib/libchromatix_s5k3p8sx_o16ql_default_video_lc898122.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_o16ql_hfr_120.so:system/vendor/lib/libchromatix_s5k3p8sx_o16ql_hfr_120.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_o16ql_hfr_120_lc898122.so:system/vendor/lib/libchromatix_s5k3p8sx_o16ql_hfr_120_lc898122.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_o16ql_liveshot.so:system/vendor/lib/libchromatix_s5k3p8sx_o16ql_liveshot.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_o16ql_postproc.so:system/vendor/lib/libchromatix_s5k3p8sx_o16ql_postproc.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_o16ql_preview_high.so:system/vendor/lib/libchromatix_s5k3p8sx_o16ql_preview_high.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_o16ql_preview_low.so:system/vendor/lib/libchromatix_s5k3p8sx_o16ql_preview_low.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_o16ql_snapshot_high.so:system/vendor/lib/libchromatix_s5k3p8sx_o16ql_snapshot_high.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_o16ql_snapshot_low.so:system/vendor/lib/libchromatix_s5k3p8sx_o16ql_snapshot_low.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_o16ql_video_high.so:system/vendor/lib/libchromatix_s5k3p8sx_o16ql_video_high.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_o16ql_video_low.so:system/vendor/lib/libchromatix_s5k3p8sx_o16ql_video_low.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_o16ql_vt_15fps_lc898122.so:system/vendor/lib/libchromatix_s5k3p8sx_o16ql_vt_15fps_lc898122.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_o16ql_vt_30fps_lc898122.so:system/vendor/lib/libchromatix_s5k3p8sx_o16ql_vt_30fps_lc898122.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_o16ql_vt_7fps_lc898122.so:system/vendor/lib/libchromatix_s5k3p8sx_o16ql_vt_7fps_lc898122.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_o16ql_vt_high.so:system/vendor/lib/libchromatix_s5k3p8sx_o16ql_vt_high.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_o16ql_vt_low.so:system/vendor/lib/libchromatix_s5k3p8sx_o16ql_vt_low.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_o16ql_zsl_preview_lc898122.so:system/vendor/lib/libchromatix_s5k3p8sx_o16ql_zsl_preview_lc898122.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k6b2yx_1080p_preview_lc898122.so:system/vendor/lib/libchromatix_s5k6b2yx_1080p_preview_lc898122.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k6b2yx_1080p_video_lc898122.so:system/vendor/lib/libchromatix_s5k6b2yx_1080p_video_lc898122.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k6b2yx_4k_preview_lc898122.so:system/vendor/lib/libchromatix_s5k6b2yx_4k_preview_lc898122.so \
