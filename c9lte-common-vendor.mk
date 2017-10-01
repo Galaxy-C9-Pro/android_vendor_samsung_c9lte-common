@@ -38,9 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/samsung/c9lte-common/proprietary/etc/camera/M16QL_s5k3p8sx_chromatix.xml:system/etc/camera/M16QL_s5k3p8sx_chromatix.xml \
     vendor/samsung/c9lte-common/proprietary/etc/camera/O16QL_s5k3p8sx_chromatix.xml:system/etc/camera/O16QL_s5k3p8sx_chromatix.xml \
-    vendor/samsung/c9lte-common/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
-    vendor/samsung/c9lte-common/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
-    vendor/samsung/c9lte-common/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/samsung/c9lte-common/proprietary/etc/firmware/cs47l15-dsp1-karaoke-vocals.bin:system/etc/firmware/cs47l15-dsp1-karaoke-vocals.bin \
     vendor/samsung/c9lte-common/proprietary/etc/firmware/cs47l15-dsp1-karaoke-vocals.wmfw:system/etc/firmware/cs47l15-dsp1-karaoke-vocals.wmfw \
     vendor/samsung/c9lte-common/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
@@ -62,7 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/etc/firmware/ois_SP_BU24219.bin:system/etc/firmware/ois_SP_BU24219.bin \
     vendor/samsung/c9lte-common/proprietary/etc/firmware/ois_VE_BU24219.bin:system/etc/firmware/ois_VE_BU24219.bin \
     vendor/samsung/c9lte-common/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
-    vendor/samsung/c9lte-common/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/samsung/c9lte-common/proprietary/etc/Tfa9897.cnt:system/etc/Tfa9897.cnt \
     vendor/samsung/c9lte-common/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/samsung/c9lte-common/proprietary/framework/org.apache.http.legacy.boot.jar:system/framework/org.apache.http.legacy.boot.jar \
@@ -256,14 +252,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k6b2yx_zsl_preview_lc898122.so:system/vendor/lib/libchromatix_s5k6b2yx_zsl_preview_lc898122.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k6b2yx_zsl_video_lc898122.so:system/vendor/lib/libchromatix_s5k6b2yx_zsl_video_lc898122.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
@@ -362,8 +356,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
@@ -378,7 +370,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so \
@@ -430,7 +421,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/vendor/lib64/libc2d30_bltlib.so:system/vendor/lib64/libc2d30_bltlib.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
@@ -439,7 +429,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
@@ -453,8 +442,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib64/libqisl.so:system/vendor/lib64/libqisl.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
@@ -464,7 +451,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
@@ -503,129 +489,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/lib64/soundfx/libqcomvisualizer.so:system/lib64/soundfx/libqcomvisualizer.so \
     vendor/samsung/c9lte-common/proprietary/lib64/soundfx/libqcomvoiceprocessing.so:system/lib64/soundfx/libqcomvoiceprocessing.so \
     vendor/samsung/c9lte-common/proprietary/lib64/soundfx/libreverbwrapper.so:system/lib64/soundfx/libreverbwrapper.so \
-    vendor/samsung/c9lte-common/proprietary/lib64/soundfx/libvisualizer.so:system/lib64/soundfx/libvisualizer.so \
-    vendor/samsung/c9lte-common/proprietary/bin/cnd:system/bin/cnd \
-    vendor/samsung/c9lte-common/proprietary/bin/dpmd:system/bin/dpmd \
-    vendor/samsung/c9lte-common/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
-    vendor/samsung/c9lte-common/proprietary/bin/imscmservice:system/bin/imscmservice \
-    vendor/samsung/c9lte-common/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
-    vendor/samsung/c9lte-common/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    vendor/samsung/c9lte-common/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/samsung/c9lte-common/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/samsung/c9lte-common/proprietary/bin/radish:system/bin/radish \
-    vendor/samsung/c9lte-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/samsung/c9lte-common/proprietary/bin/tftp_server:system/bin/tftp_server \
-    vendor/samsung/c9lte-common/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
-    vendor/samsung/c9lte-common/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
-    vendor/samsung/c9lte-common/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
-    vendor/samsung/c9lte-common/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
-    vendor/samsung/c9lte-common/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
-    vendor/samsung/c9lte-common/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
-    vendor/samsung/c9lte-common/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
-    vendor/samsung/c9lte-common/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
-    vendor/samsung/c9lte-common/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
-    vendor/samsung/c9lte-common/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
-    vendor/samsung/c9lte-common/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/samsung/c9lte-common/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
-    vendor/samsung/c9lte-common/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
-    vendor/samsung/c9lte-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
-    vendor/samsung/c9lte-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/samsung/c9lte-common/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
-    vendor/samsung/c9lte-common/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
-    vendor/samsung/c9lte-common/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
-    vendor/samsung/c9lte-common/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/samsung/c9lte-common/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
-    vendor/samsung/c9lte-common/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/samsung/c9lte-common/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
-    vendor/samsung/c9lte-common/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
-    vendor/samsung/c9lte-common/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
-    vendor/samsung/c9lte-common/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
-    vendor/samsung/c9lte-common/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
-    vendor/samsung/c9lte-common/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib/libdpmtcm.so:system/vendor/lib/libdpmtcm.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/lib-imsSDP.so:system/vendor/lib64/lib-imsSDP.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/lib-imsqimf.so:system/vendor/lib64/lib-imsqimf.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/lib-imsrcs.so:system/vendor/lib64/lib-imsrcs.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/lib-imsrcscm.so:system/vendor/lib64/lib-imsrcscm.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/lib-imsrcscmclient.so:system/vendor/lib64/lib-imsrcscmclient.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/lib-imsrcscmservice.so:system/vendor/lib64/lib-imsrcscmservice.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/lib-imss.so:system/vendor/lib64/lib-imss.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/lib-imsvt.so:system/vendor/lib64/lib-imsvt.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/lib-rcsimssjni.so:system/vendor/lib64/lib-rcsimssjni.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/lib-rcsjni.so:system/vendor/lib64/lib-rcsjni.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/lib-rtpcommon.so:system/vendor/lib64/lib-rtpcommon.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libNimsWrap.so:system/vendor/lib64/libNimsWrap.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libcneconn.so:system/vendor/lib64/libcneconn.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libdpmctmgr.so:system/vendor/lib64/libdpmctmgr.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libdpmfdmgr.so:system/vendor/lib64/libdpmfdmgr.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libdpmframework.so:system/vendor/lib64/libdpmframework.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libdpmnsrm.so:system/vendor/lib64/libdpmnsrm.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libdpmtcm.so:system/vendor/lib64/libdpmtcm.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/librcc.so:system/vendor/lib64/librcc.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/qcril.db:system/vendor/qcril.db
+    vendor/samsung/c9lte-common/proprietary/lib64/soundfx/libvisualizer.so:system/lib64/soundfx/libvisualizer.so
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
-    libtime_genoff \
-    QtiTelephonyService \
-    shutdownlistener \
-    CNEService \
-    QtiTetherService \
-    qcrilmsgtunnel \
-    ims \
-    imssettings \
-    qcnvitems \
-    qcrilhook
+    libtime_genoff
