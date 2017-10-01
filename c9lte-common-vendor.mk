@@ -17,6 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/samsung/c9lte-common/proprietary/bin/btnvtool:system/bin/btnvtool \
+	vendor/samsung/c9lte-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/samsung/c9lte-common/proprietary/bin/garden_app:system/bin/garden_app \
     vendor/samsung/c9lte-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/samsung/c9lte-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
