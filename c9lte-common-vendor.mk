@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/samsung/c9lte-common/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/samsung/c9lte-common/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/samsung/c9lte-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/samsung/c9lte-common/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/samsung/c9lte-common/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/samsung/c9lte-common/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
