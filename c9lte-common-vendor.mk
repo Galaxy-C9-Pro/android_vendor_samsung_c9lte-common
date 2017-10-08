@@ -45,6 +45,22 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/etc/firmware/cs47l15-dsp1-karaoke-vocals.wmfw:system/etc/firmware/cs47l15-dsp1-karaoke-vocals.wmfw \
     vendor/samsung/c9lte-common/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
     vendor/samsung/c9lte-common/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
+    vendor/samsung/c9lte-common/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/samsung/c9lte-common/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/samsung/c9lte-common/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/samsung/c9lte-common/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/samsung/c9lte-common/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:system/etc/firmware/cpp_firmware_v1_5_0.fw \
+    vendor/samsung/c9lte-common/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
+    vendor/samsung/c9lte-common/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/samsung/c9lte-common/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
+    vendor/samsung/c9lte-common/proprietary/etc/firmware/DE.o.msm8952:system/etc/firmware/DE.o.msm8952 \
+    vendor/samsung/c9lte-common/proprietary/etc/firmware/DE.o.msm8976:system/etc/firmware/DE.o.msm8976 \
+    vendor/samsung/c9lte-common/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
+    vendor/samsung/c9lte-common/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/samsung/c9lte-common/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+    vendor/samsung/c9lte-common/proprietary/etc/firmware/ois_SE_BU24219.bin:system/etc/firmware/ois_SE_BU24219.bin \
+    vendor/samsung/c9lte-common/proprietary/etc/firmware/ois_SP_BU24219.bin:system/etc/firmware/ois_SP_BU24219.bin \
+    vendor/samsung/c9lte-common/proprietary/etc/firmware/ois_VE_BU24219.bin:system/etc/firmware/ois_VE_BU24219.bin \
     vendor/samsung/c9lte-common/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/samsung/c9lte-common/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/samsung/c9lte-common/proprietary/etc/Tfa9897.cnt:system/etc/Tfa9897.cnt \
