@@ -144,7 +144,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libactuator_ad5823.so:system/vendor/lib/libactuator_ad5823.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libactuator_ak7371.so:system/vendor/lib/libactuator_ak7371.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libactuator_ak7372.so:system/vendor/lib/libactuator_ak7372.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libactuator_dw9716.so:system/vendor/lib/libactuator_dw9716.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libactuator_dw9807.so:system/vendor/lib/libactuator_dw9807.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libactuator_ad5816g.so:system/vendor/lib/libactuator_ad5816g.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libactuator_dw9761b.so:system/vendor/lib/libactuator_dw9761b.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libactuator_lc898122.so:system/vendor/lib/libactuator_lc898122.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libactuator_bu64244gwz.so:system/vendor/lib/libactuator_bu64244gwz.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libactuator_lc898212xd.so:system/vendor/lib/libactuator_lc898212xd.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:system/vendor/lib/libactuator_rohm_bu64243gwz.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libadm.so:system/vendor/lib/libadm.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
