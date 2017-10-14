@@ -17,7 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/samsung/c9lte-common/proprietary/bin/btnvtool:system/bin/btnvtool \
-	vendor/samsung/c9lte-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/samsung/c9lte-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/samsung/c9lte-common/proprietary/bin/garden_app:system/bin/garden_app \
     vendor/samsung/c9lte-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/samsung/c9lte-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
@@ -36,6 +36,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/etc/M16QL_s5k3p8sx_ak7372_module_info.xml:system/etc/M16QL_s5k3p8sx_ak7372_module_info.xml \
     vendor/samsung/c9lte-common/proprietary/etc/O16QL_s5k3p8sx_module_info.xml:system/etc/O16QL_s5k3p8sx_module_info.xml \
     vendor/samsung/c9lte-common/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
+    vendor/samsung/c9lte-common/proprietary/etc/camera/msm8952_camera.xml:system/etc/camera/msm8952_camera.xml \
+    vendor/samsung/c9lte-common/proprietary/etc/camera/msm8976_camera.xml:system/etc/camera/msm8976_camera.xml \
     vendor/samsung/c9lte-common/proprietary/etc/camera/M16QL_s5k3p8sx_chromatix.xml:system/etc/camera/M16QL_s5k3p8sx_chromatix.xml \
     vendor/samsung/c9lte-common/proprietary/etc/camera/O16QL_s5k3p8sx_chromatix.xml:system/etc/camera/O16QL_s5k3p8sx_chromatix.xml \
     vendor/samsung/c9lte-common/proprietary/etc/firmware/cs47l15-dsp1-karaoke-vocals.bin:system/etc/firmware/cs47l15-dsp1-karaoke-vocals.bin \
@@ -112,7 +114,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/samsung/c9lte-common/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/samsung/c9lte-common/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
-	vendor/samsung/c9lte-common/proprietary/vendor/firmware/ram_patch.fw:system/vendor/firmware/ram_patch.fw \
+    vendor/samsung/c9lte-common/proprietary/vendor/firmware/ram_patch.fw:system/vendor/firmware/ram_patch.fw \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
