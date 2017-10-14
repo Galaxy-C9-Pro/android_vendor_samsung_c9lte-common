@@ -36,6 +36,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/etc/M16QL_s5k3p8sx_ak7372_module_info.xml:system/etc/M16QL_s5k3p8sx_ak7372_module_info.xml \
     vendor/samsung/c9lte-common/proprietary/etc/O16QL_s5k3p8sx_module_info.xml:system/etc/O16QL_s5k3p8sx_module_info.xml \
     vendor/samsung/c9lte-common/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
+    vendor/samsung/c9lte-common/proprietary/etc/camera/msm8976_camera_c9lte.xml:system/etc/camera/msm8976_camera_c9lte.xml \
     vendor/samsung/c9lte-common/proprietary/etc/camera/msm8952_camera.xml:system/etc/camera/msm8952_camera.xml \
     vendor/samsung/c9lte-common/proprietary/etc/camera/msm8976_camera.xml:system/etc/camera/msm8976_camera.xml \
     vendor/samsung/c9lte-common/proprietary/etc/camera/M16QL_s5k3p8sx_chromatix.xml:system/etc/camera/M16QL_s5k3p8sx_chromatix.xml \
