@@ -36,7 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/c9lte-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/c9lte-common/proprietary/bin/tftp_server:system/bin/tftp_server \
-    vendor/samsung/c9lte-common/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/samsung/c9lte-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/samsung/c9lte-common/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/samsung/c9lte-common/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
