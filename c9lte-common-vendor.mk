@@ -255,6 +255,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k3p8sx_m16ql_isp_snapshot.so:system/vendor/lib/libchromatix_s5k3p8sx_m16ql_isp_snapshot.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k6b2yx_1080p_preview_lc898122.so:system/vendor/lib/libchromatix_s5k6b2yx_1080p_preview_lc898122.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k6b2yx_1080p_video_lc898122.so:system/vendor/lib/libchromatix_s5k6b2yx_1080p_video_lc898122.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libchromatix_s5k6b2yx_4k_preview_lc898122.so:system/vendor/lib/libchromatix_s5k6b2yx_4k_preview_lc898122.so \
