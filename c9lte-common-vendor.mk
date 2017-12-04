@@ -129,6 +129,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/lib/libsynaFpSensorTestNwd.so:system/lib/libsynaFpSensorTestNwd.so \
     vendor/samsung/c9lte-common/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
     vendor/samsung/c9lte-common/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
+    vendor/samsung/c9lte-common/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
     vendor/samsung/c9lte-common/proprietary/lib/soundfx/libaudioeffectoffload.so:system/lib/soundfx/libaudioeffectoffload.so \
     vendor/samsung/c9lte-common/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
     vendor/samsung/c9lte-common/proprietary/lib/soundfx/libaudiosaplus_sec.so:system/lib/soundfx/libaudiosaplus_sec.so \
@@ -168,6 +169,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/lib64/libsecril-client.so:system/lib64/libsecril-client.so \
     vendor/samsung/c9lte-common/proprietary/lib64/libsynaFpSensorTestNwd.so:system/lib64/libsynaFpSensorTestNwd.so \
     vendor/samsung/c9lte-common/proprietary/lib64/libuniplugin.so:system/lib64/libuniplugin.so \
+    vendor/samsung/c9lte-common/proprietary/lib64/libfloatingfeature.so:system/lib64/libfloatingfeature.so \
     vendor/samsung/c9lte-common/proprietary/lib64/soundfx/libaudioeffectoffload.so:system/lib64/soundfx/libaudioeffectoffload.so \
     vendor/samsung/c9lte-common/proprietary/lib64/soundfx/libaudiopreprocessing.so:system/lib64/soundfx/libaudiopreprocessing.so \
     vendor/samsung/c9lte-common/proprietary/lib64/soundfx/libbundlewrapper.so:system/lib64/soundfx/libbundlewrapper.so \
