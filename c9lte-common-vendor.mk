@@ -552,8 +552,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/vendor/lib64/libadsp_default_listener.so:system/vendor/lib64/libadsp_default_listener.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libllvd_smore.so:system/vendor/lib/libllvd_smore.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib/libmdtp.so:system/vendor/lib/libmdtp.so \
+    vendor/samsung/c9lte-common/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/samsung/c9lte-common/proprietary/vendor/lib64/libmdtp.so:system/vendor/lib64/libmdtp.so \
-    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so
+    vendor/samsung/c9lte-common/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
+    vendor/samsung/c9lte-common/proprietary/lib/libalawb_algo.so:system/lib/libalawb_algo.so
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
