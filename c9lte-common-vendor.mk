@@ -17,6 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/samsung/c9lte-common/proprietary/bin/auditd:system/bin/auditd \
+    vendor/samsung/c9lte-common/proprietary/bin/samsungpowersoundplay:system/bin/samsungpowersoundplay \
     vendor/samsung/c9lte-common/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/samsung/c9lte-common/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/samsung/c9lte-common/proprietary/bin/garden_app:system/bin/garden_app \
@@ -143,6 +144,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
     vendor/samsung/c9lte-common/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
     vendor/samsung/c9lte-common/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
+    vendor/samsung/c9lte-common/proprietary/lib/libsamsungpowersound.so:system/lib/libsamsungpowersound.so \
+    vendor/samsung/c9lte-common/proprietary/lib/libsecaudioinfo.so:system/lib/libsecaudioinfo.so \
+    vendor/samsung/c9lte-common/proprietary/lib64/libsecaudioinfo.so:system/lib64/libsecaudioinfo.so \
     vendor/samsung/c9lte-common/proprietary/lib64/drm/libfwdlockengine.so:system/lib64/drm/libfwdlockengine.so \
     vendor/samsung/c9lte-common/proprietary/lib64/drm/libomaplugin.so:system/lib64/drm/libomaplugin.so \
     vendor/samsung/c9lte-common/proprietary/lib64/egl/libGLES_android.so:system/lib64/egl/libGLES_android.so \
