@@ -33,6 +33,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/c9lte-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/samsung/c9lte-common/proprietary/bin/radish:system/bin/radish \
+    vendor/samsung/c9lte-common/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/c9lte-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/c9lte-common/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/samsung/c9lte-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
@@ -118,6 +119,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/lib/libprotobuf-cpp-lite.so:system/lib/libprotobuf-cpp-lite.so \
     vendor/samsung/c9lte-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/samsung/c9lte-common/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+    vendor/samsung/c9lte-common/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/samsung/c9lte-common/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/c9lte-common/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/samsung/c9lte-common/proprietary/lib/libsamsungSoundbooster_plus.so:system/lib/libsamsungSoundbooster_plus.so \
     vendor/samsung/c9lte-common/proprietary/lib/libsblcv.so:system/lib/libsblcv.so \
@@ -158,6 +161,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/lib64/libprotobuf-cpp-full.so:system/lib64/libprotobuf-cpp-full.so \
     vendor/samsung/c9lte-common/proprietary/lib64/libprotobuf-cpp-lite.so:system/lib64/libprotobuf-cpp-lite.so \
     vendor/samsung/c9lte-common/proprietary/lib64/libreference-ril.so:system/lib64/libreference-ril.so \
+    vendor/samsung/c9lte-common/proprietary/lib64/libril.so:system/lib64/libril.so \
+    vendor/samsung/c9lte-common/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
     vendor/samsung/c9lte-common/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/samsung/c9lte-common/proprietary/lib64/libsec-ims.so:system/lib64/libsec-ims.so \
     vendor/samsung/c9lte-common/proprietary/lib64/libsec-ril-dsds.so:system/lib64/libsec-ril-dsds.so \
