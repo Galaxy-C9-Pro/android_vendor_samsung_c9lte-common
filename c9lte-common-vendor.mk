@@ -124,6 +124,26 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/c9lte-common/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/samsung/c9lte-common/proprietary/lib/libsamsungSoundbooster_plus.so:system/lib/libsamsungSoundbooster_plus.so \
+    vendor/samsung/c9lte-common/proprietary/lib/hw/audio.primary.msm8952.so:system/lib/hw/audio.primary.msm8952.so \
+    vendor/samsung/c9lte-common/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
+    vendor/samsung/c9lte-common/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
+    vendor/samsung/c9lte-common/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
+    vendor/samsung/c9lte-common/proprietary/lib/libaudioeffect_jni.so:system/lib/libaudioeffect_jni.so \
+    vendor/samsung/c9lte-common/proprietary/lib/libaudioutils.so:system/lib/libaudioutils.so \
+    vendor/samsung/c9lte-common/proprietary/lib/libexpat.so:system/lib/libexpat.so \
+    vendor/samsung/c9lte-common/proprietary/lib/librecordalive.so:system/lib/librecordalive.so \
+    vendor/samsung/c9lte-common/proprietary/lib/libSamsungPostProcess.so:system/lib/libSamsungPostProcess.so \
+    vendor/samsung/c9lte-common/proprietary/lib/libSamsungPostProcessConvertor.so:system/lib/libSamsungPostProcessConvertor.so \
+    vendor/samsung/c9lte-common/proprietary/lib/libsamsungeffect.so:system/lib/libsamsungeffect.so \
+    vendor/samsung/c9lte-common/proprietary/lib/libsamsungearcare.so:system/lib/libsamsungearcare.so \
+    vendor/samsung/c9lte-common/proprietary/lib/libsamsungVoipResampler.so:system/lib/libsamsungVoipResampler.so \
+    vendor/samsung/c9lte-common/proprietary/lib/libsamsungSoundbooster_plus.so:system/lib/libsamsungSoundbooster_plus.so \
+    vendor/samsung/c9lte-common/proprietary/lib/lib_DNSe_EP_ver216c.so:system/lib/lib_DNSe_EP_ver216c.so \
+    vendor/samsung/c9lte-common/proprietary/lib/lib_SamsungRec_06003.so:system/lib/lib_SamsungRec_06003.so \
+    vendor/samsung/c9lte-common/proprietary/lib/lib_SamsungVAD_v01009.so:system/lib/lib_SamsungVAD_v01009.so \
+    vendor/samsung/c9lte-common/proprietary/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
+    vendor/samsung/c9lte-common/proprietary/lib/lib_SoundBooster_ver700.so:system/lib/lib_SoundBooster_ver700.so \
+    vendor/samsung/c9lte-common/proprietary/lib/lib_SoundAlive_SRC384_ver300.so:system/lib/lib/lib_SoundAlive_SRC384_ver300.so \
     vendor/samsung/c9lte-common/proprietary/lib/libsblcv.so:system/lib/libsblcv.so \
     vendor/samsung/c9lte-common/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/c9lte-common/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
