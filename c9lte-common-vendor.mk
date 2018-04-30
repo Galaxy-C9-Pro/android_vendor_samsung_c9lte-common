@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/app/mcRegistry/07010000000000000000000000000000.tlbin:system/app/mcRegistry/07010000000000000000000000000000.tlbin \
+    vendor/samsung/c9lte-common/proprietary/vendor/firmware/ram_patch.fw:vendor/firmware/ram_patch.fw \
     vendor/samsung/c9lte-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/samsung/c9lte-common/proprietary/bin/auditd:system/bin/auditd \
     vendor/samsung/c9lte-common/proprietary/bin/samsungpowersoundplay:system/bin/samsungpowersoundplay \
