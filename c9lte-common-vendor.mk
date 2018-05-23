@@ -138,6 +138,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/lib/libsamsungeffect.so:system/lib/libsamsungeffect.so \
     vendor/samsung/c9lte-common/proprietary/lib/libsamsungearcare.so:system/lib/libsamsungearcare.so \
     vendor/samsung/c9lte-common/proprietary/lib/libsamsungVoipResampler.so:system/lib/libsamsungVoipResampler.so \
+	vendor/samsung/c9lte-common/proprietary/lib/libsamsungpowersound.so:system/lib/libsamsungpowersound.so \
     vendor/samsung/c9lte-common/proprietary/lib/libsamsungSoundbooster_plus.so:system/lib/libsamsungSoundbooster_plus.so \
     vendor/samsung/c9lte-common/proprietary/lib/lib_DNSe_EP_ver216c.so:system/lib/lib_DNSe_EP_ver216c.so \
     vendor/samsung/c9lte-common/proprietary/lib/lib_SamsungRec_06003.so:system/lib/lib_SamsungRec_06003.so \
@@ -163,6 +164,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/lib/soundfx/libmyspace.so:system/lib/soundfx/libmyspace.so \
     vendor/samsung/c9lte-common/proprietary/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
     vendor/samsung/c9lte-common/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
+	vendor/samsung/c9lte-common/proprietary/lib/soundfx/libqcompostprocbundle.so:system/lib/soundfx/libqcompostprocbundle.so \
     vendor/samsung/c9lte-common/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
     vendor/samsung/c9lte-common/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
     vendor/samsung/c9lte-common/proprietary/lib64/drm/libfwdlockengine.so:system/lib64/drm/libfwdlockengine.so \
@@ -201,6 +203,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c9lte-common/proprietary/lib64/soundfx/libldnhncr.so:system/lib64/soundfx/libldnhncr.so \
     vendor/samsung/c9lte-common/proprietary/lib64/soundfx/libqcomvisualizer.so:system/lib64/soundfx/libqcomvisualizer.so \
     vendor/samsung/c9lte-common/proprietary/lib64/soundfx/libqcomvoiceprocessing.so:system/lib64/soundfx/libqcomvoiceprocessing.so \
+    vendor/samsung/c9lte-common/proprietary/lib64/soundfx/libqcompostprocbundle.so:system/lib64/soundfx/libqcompostprocbundle.so \
     vendor/samsung/c9lte-common/proprietary/lib64/soundfx/libreverbwrapper.so:system/lib64/soundfx/libreverbwrapper.so \
     vendor/samsung/c9lte-common/proprietary/lib64/soundfx/libvisualizer.so:system/lib64/soundfx/libvisualizer.so \
     vendor/samsung/c9lte-common/proprietary/vendor/bin/LKCore:system/vendor/bin/LKCore \
